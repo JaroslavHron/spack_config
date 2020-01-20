@@ -1,0 +1,5 @@
+repos:
+#- /home/hron/pkg/DEV/karlin/fenics
+- /home/hron/pkg/DEV/karlin/firedrake
+- /home/hron/pkg/DEV/karlin/local
+

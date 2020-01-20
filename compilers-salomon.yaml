@@ -1,0 +1,94 @@
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths:
+    - /apps/all/GCCcore/7.3.0/lib
+    - /apps/all/GCCcore/7.3.0/lib64
+    - /apps/all/GCCcore/7.3.0/lib/gcc/x86_64-pc-linux-gnu/7.3.0
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc: /apps/all/GCCcore/7.3.0/bin/gcc
+      cxx: /apps/all/GCCcore/7.3.0/bin/g++
+      f77: /apps/all/GCCcore/7.3.0/bin/gfortran
+      fc: /apps/all/GCCcore/7.3.0/bin/gfortran
+    spec: gcc@7.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths:
+    - /apps/all/GCCcore/6.3.0/lib
+    - /apps/all/GCCcore/6.3.0/lib64
+    - /apps/all/GCCcore/6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc: /apps/all/GCCcore/6.3.0/bin/gcc
+      cxx: /apps/all/GCCcore/6.3.0/bin/g++
+      f77: /apps/all/GCCcore/6.3.0/bin/gfortran
+      fc: /apps/all/GCCcore/6.3.0/bin/gfortran
+    spec: gcc@6.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths:
+    - /apps/all/GCCcore/8.1.0/lib
+    - /apps/all/GCCcore/8.1.0/lib64
+    - /apps/all/GCCcore/8.1.0/lib/gcc/x86_64-pc-linux-gnu/8.1.0
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc: /apps/all/GCCcore/8.1.0/bin/gcc
+      cxx: /apps/all/GCCcore/8.1.0/bin/g++
+      f77: /apps/all/GCCcore/8.1.0/bin/gfortran
+      fc: /apps/all/GCCcore/8.1.0/bin/gfortran
+    spec: gcc@8.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths:
+    - /apps/all/GCCcore/8.3.0/lib
+    - /apps/all/GCCcore/8.3.0/lib64
+    - /apps/all/GCCcore/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc: /apps/all/GCCcore/8.3.0/bin/gcc
+      cxx: /apps/all/GCCcore/8.3.0/bin/g++
+      f77: /apps/all/GCCcore/8.3.0/bin/gfortran
+      fc: /apps/all/GCCcore/8.3.0/bin/gfortran
+    spec: gcc@8.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths:
+    - /apps/all/GCCcore/9.1.0/lib
+    - /apps/all/GCCcore/9.1.0/lib64
+    - /apps/all/GCCcore/9.1.0/lib/gcc/x86_64-pc-linux-gnu/9.1.0
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc: /apps/all/GCCcore/9.1.0/bin/gcc
+      cxx: /apps/all/GCCcore/9.1.0/bin/g++
+      f77: /apps/all/GCCcore/9.1.0/bin/gfortran
+      fc: /apps/all/GCCcore/9.1.0/bin/gfortran
+    spec: gcc@9.1.0
+    target: x86_64

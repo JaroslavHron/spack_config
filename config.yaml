@@ -1,0 +1,24 @@
+# -------------------------------------------------------------------------
+# This is Per-spack-instance settings (overrides defaults):
+#   $SPACK_ROOT/etc/spack/config.yaml
+# -------------------------------------------------------------------------
+config:
+  # This is the path to the root of the Spack install tree.
+  # You can use $spack here to refer to the root of the spack instance.
+  install_tree: /home/hron/pkg/Installs
+
+
+  # Locations where templates should be found
+  template_dirs:
+    - $spack/share/spack/templates
+
+
+  # default directory layout
+  install_path_scheme: "${ARCHITECTURE}/${COMPILERNAME}${COMPILERVER}/${PACKAGE}/${VERSION}/${HASH:16}"
+
+
+  # Locations where different types of modules should be installed.
+  module_roots:
+    tcl:    /home/hron/pkg/Modules/spack/modules
+    lmod:   /home/hron/pkg/Modules/spack/lmod
+
